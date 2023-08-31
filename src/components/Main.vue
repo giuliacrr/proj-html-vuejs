@@ -120,6 +120,7 @@ export default {};
       <h3>Testimonials</h3>
       <h1>Why do people love me?</h1>
     </div>
+    <div>slider</div>
     <!--Artist Coaching 2-->
   </div>
 </template>
