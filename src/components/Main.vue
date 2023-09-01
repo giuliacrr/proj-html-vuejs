@@ -176,33 +176,6 @@ export default {
       <h1>Why do people love me?</h1>
     </div>
     <!--Slider-->
-    <div>
-      <div>
-        <div class="m-5">
-          <div>
-            <h5>It's a choice of quality for people with special needs</h5>
-            <p class="font-size-small">
-              I'm a very strict person so I require everything to be<br />
-              organized and neat. Then, I'll be able to make things<br />
-              right and shine. MaxCoach guys just got me.
-            </p>
-          </div>
-          <div class="d-flex">
-            <div>
-              <img
-                class="testimonial-pic"
-                src="../assets/img/artist-testimonial-avatar-01.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <span>Florence Themes</span><br />
-              <span>/Multimedia Admin</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
     <!--Artist Coaching 2-->
     <div class="mb-5 mt-5">
       <div class="text-center">
@@ -238,6 +211,83 @@ export default {
         </button>
       </div>
     </div>
+    <!--Articles and Tips-->
+    <div class="mt-5">
+      <div class="text-center mt-5 mb-5">
+        <h3>Articles and Tips</h3>
+        <h1>Latest From The Blog</h1>
+      </div>
+      <div>
+        <div>
+          <div class="d-flex mb-5 justify-content-center">
+            <!--Left one-->
+            <div class="course-card blog-img m-3 small-post-descr">
+              <div class="mb-2">
+                <img
+                  class="course-img"
+                  src="../assets/img/120084500_197897808368764_8114555493043279565_n.jpg"
+                  alt="blog image"
+                />
+              </div>
+              <div class="course-infos ms-3">
+                <div class="mt-2 mb-2">
+                  <span>ARTIST</span>
+                  <h5>Brush Strokes Energize Trees in Paintings</h5>
+                </div>
+                <div>
+                  <span
+                    ><i class="fa-regular fa-calendar"></i> May 15, 2020</span
+                  ><br />
+                  <span><i class="fa-regular fa-eye"></i> 1,805 views</span>
+                </div>
+              </div>
+            </div>
+
+            <!--Middle One-->
+            <div class="position-relative">
+              <img src="../assets/img/artist-blog-02-500x680.jpg" alt="" />
+              <div class="position-absolute big-post-descr text-white p-5">
+                <div class="mt-ow">
+                  <span>ARTIST</span>
+                  <h1>Connection Between Self-Portraits and Identity</h1>
+                  <div>
+                    <span
+                      ><i class="fa-regular fa-calendar"></i> May 15, 2020</span
+                    ><br />
+                    <span><i class="fa-regular fa-eye"></i> 1,805 views</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Right one-->
+            <div class="course-card small-post-descr m-3">
+              <div class="mb-2">
+                <img
+                  class="course-img"
+                  src="../assets/img/artist-blog-01-480x356.jpg"
+                  alt="blog image"
+                />
+              </div>
+              <div class="course-infos blog-img ms-3">
+                <div class="mt-2 mb-2">
+                  <span>ARTIST</span>
+                  <h5>Pocket-Sized Notebooks Hold Miniature Paintings</h5>
+                </div>
+                <div>
+                  <span
+                    ><i class="fa-regular fa-calendar"></i> May 15, 2020</span
+                  ><br />
+                  <span><i class="fa-regular fa-eye"></i> 1,688 views</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -266,10 +316,23 @@ export default {
   .course-infos {
     width: 85%;
   }
+}
 
-  .testimonial-pic {
-    max-width: 40px;
-    max-height: 40px;
-  }
+.testimonial-img {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.big-post-descr {
+  top: 0%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.small-post-descr {
+  width: 300px;
+}
+.mt-ow {
+  margin-top: 350px;
 }
 </style>
