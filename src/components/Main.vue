@@ -1,5 +1,60 @@
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      Courses: [
+        {
+          course_name: "The Acrylic Painting Academy",
+          price: "$18.00",
+          lessons: " 4 Lessons",
+          students: " 50 Students",
+        },
+        {
+          course_name: "Drawing and Shading: Complete Course",
+          price: "$21.00",
+          lessons: " 14 Lessons",
+          students: " 50 Students",
+        },
+        {
+          course_name: "The Color Theory for Digital Artist",
+          price: "$19.00",
+          lessons: " 7 Lessons",
+          students: " 50 Students",
+        },
+        {
+          course_name: "Ultimate Guide to Digital Sketching for Beginner",
+          price: "$35.00",
+          lessons: " 14 Lessons",
+          students: " 50 Students",
+        },
+        {
+          course_name: "Portrait Drawing The Smart Way",
+          price: "$19.00",
+          lessons: " 2 Lessons",
+          students: " 50 Students",
+        },
+        {
+          course_name: "Mastering Watercolor Painting from Beginner",
+          price: "$19.00",
+          lessons: " 9 Lessons",
+          students: " 50 Students",
+        },
+        {
+          course_name: "The Art & Science of Drawing",
+          price: "$25.00",
+          lessons: " 4 Lessons",
+          students: " 50 Students",
+        },
+        {
+          course_name: "The Colored Pencil Drawing Course",
+          price: "$22.00",
+          lessons: " 6 Lessons",
+          students: " 50 Students",
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <template>
@@ -116,12 +171,73 @@ export default {};
       </div>
     </div>
     <!--Testimonials-->
-    <div class="container text-center">
+    <div class="container text-center mb-5 mt-5">
       <h3>Testimonials</h3>
       <h1>Why do people love me?</h1>
     </div>
-    <div>slider</div>
+    <!--Slider-->
+    <div>
+      <div>
+        <div class="m-5">
+          <div>
+            <h5>It's a choice of quality for people with special needs</h5>
+            <p class="font-size-small">
+              I'm a very strict person so I require everything to be<br />
+              organized and neat. Then, I'll be able to make things<br />
+              right and shine. MaxCoach guys just got me.
+            </p>
+          </div>
+          <div class="d-flex">
+            <div>
+              <img
+                class="testimonial-pic"
+                src="../assets/img/artist-testimonial-avatar-01.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <span>Florence Themes</span><br />
+              <span>/Multimedia Admin</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!--Artist Coaching 2-->
+    <div class="mb-5 mt-5">
+      <div class="text-center">
+        <h3>Artist Coaching</h3>
+        <h1>Latest Online Courses</h1>
+      </div>
+      <div class="d-flex flex-wrap m-auto mb-5">
+        <div class="course-card m-3" v-for="(course, i) in this.Courses">
+          <div class="mb-2">
+            <img
+              class="course-img"
+              :src="`src/assets/img/artist-course-0${i + 1}-480x480.jpg`"
+              alt="course image"
+            />
+          </div>
+          <div class="course-infos ms-3">
+            <div class="mt-2 mb-2">
+              <span>{{ course.price }}</span>
+              <h5>{{ course.course_name }}</h5>
+            </div>
+            <div>
+              <span
+                ><i class="fa-solid fa-list-ul"></i>{{ course.lessons }}
+                <i class="fa-regular fa-user"></i>{{ course.students }}</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <button>
+          View all courses <i class="fa-solid fa-arrow-right-long"></i>
+        </button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -139,5 +255,21 @@ export default {};
 .yt-pb {
   left: 46%;
   bottom: 43%;
+}
+
+.course-card {
+  width: calc((100% / 4) - 32px);
+  img {
+    height: 100%;
+    width: 100%;
+  }
+  .course-infos {
+    width: 85%;
+  }
+
+  .testimonial-pic {
+    max-width: 40px;
+    max-height: 40px;
+  }
 }
 </style>
