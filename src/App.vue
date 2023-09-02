@@ -15,6 +15,7 @@ export default {
 <template>
   <TheHeader></TheHeader>
   <TheMain></TheMain>
+  <TheFooter></TheFooter>
 </template>
 
 <style lang="scss"></style>

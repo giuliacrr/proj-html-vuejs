@@ -356,7 +356,7 @@ export default {
       <!--Second row-->
       <div class="container d-flex justify-content-center mt-5">
         <!--Event three-->
-        <div class="d-flex me-4">
+        <div class="d-flex">
           <div class="d-flex justify-content-center align-items-center p-5">
             <div class="text-end">
               <div>
