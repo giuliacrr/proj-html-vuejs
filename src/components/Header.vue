@@ -58,7 +58,7 @@ export default {
     </div>
     <!--Center writing-->
     <div class="text-center ms-5 me-5">
-      <h3>Hello, I'm Martin</h3>
+      <h1 class="custom-title-mills">Hello, I'm Martin</h1>
       <h1>
         Artist Coaching and Mentoring<br />
         Might Be for You.

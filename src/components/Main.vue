@@ -62,7 +62,7 @@ export default {
     <!--Artist Coaching-->
     <div class="ps-5 pe-5">
       <div class="text-center">
-        <h3>Artist Coaching</h3>
+        <h1 class="custom-title-mills">Artist Coaching</h1>
         <h1>I understand what it takes to create.<br />I can help you with:</h1>
       </div>
       <div class="d-flex mt-5 mb-5">
@@ -131,7 +131,7 @@ export default {
                 you mean it
               </span>
             </div>
-            <h3>Martin Garrix</h3>
+            <h1 class="custom-title-mills">Martin Garrix</h1>
           </div>
         </div>
       </div>
@@ -172,14 +172,14 @@ export default {
     </div>
     <!--Testimonials-->
     <div class="container text-center mb-5 mt-5">
-      <h3>Testimonials</h3>
+      <h1 class="custom-title-mills">Testimonials</h1>
       <h1>Why do people love me?</h1>
     </div>
     <!--Slider-->
     <!--Artist Coaching 2-->
     <div class="mb-5 mt-5">
       <div class="text-center">
-        <h3>Artist Coaching</h3>
+        <h1 class="custom-title-mills">Artist Coaching</h1>
         <h1>Latest Online Courses</h1>
       </div>
       <div class="d-flex flex-wrap m-auto mb-5">
@@ -214,7 +214,7 @@ export default {
     <!--Articles and Tips-->
     <div class="mt-5 mb-5">
       <div class="text-center mt-5 mb-5">
-        <h3>Articles and Tips</h3>
+        <h1 class="custom-title-mills">Articles and Tips</h1>
         <h1>Latest From The Blog</h1>
       </div>
       <div>
@@ -299,7 +299,7 @@ export default {
     <!--Upcoming Events-->
     <div class="mt-5 mb-5">
       <div class="text-center">
-        <h3>Upcoming Events</h3>
+        <h1 class="custom-title-mills">Upcoming Events</h1>
         <h1>Let's work Together</h1>
       </div>
       <!--First row-->

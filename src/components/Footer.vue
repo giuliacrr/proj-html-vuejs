@@ -5,12 +5,12 @@ export default {};
 <template>
   <div>
     <!--Newsletter-->
-    <div class="bg-primary pt-4 pb-4">
+    <div class="pt-4 pb-4">
       <div
         class="container d-flex text-white justify-content-center align-items-center"
       >
         <div class="text-end get-in-touch">
-          <span>
+          <span class="custom-title-pf">
             Newsletter to get<br />
             in touch
           </span>
