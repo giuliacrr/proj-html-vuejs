@@ -212,7 +212,7 @@ export default {
       </div>
     </div>
     <!--Articles and Tips-->
-    <div class="mt-5">
+    <div class="mt-5 mb-5">
       <div class="text-center mt-5 mb-5">
         <h3>Articles and Tips</h3>
         <h1>Latest From The Blog</h1>
@@ -221,10 +221,10 @@ export default {
         <div>
           <div class="d-flex mb-5 justify-content-center">
             <!--Left one-->
-            <div class="course-card blog-img m-3 small-post-descr">
+            <div class="course-blog left-article blog-img small-post-descr">
               <div class="mb-2">
                 <img
-                  class="course-img"
+                  style="width: 250px; height: 200px"
                   src="../assets/img/120084500_197897808368764_8114555493043279565_n.jpg"
                   alt="blog image"
                 />
@@ -244,27 +244,30 @@ export default {
             </div>
 
             <!--Middle One-->
-            <div class="position-relative">
-              <img src="../assets/img/artist-blog-02-500x680.jpg" alt="" />
-              <div class="position-absolute big-post-descr text-white p-5">
-                <div class="mt-ow">
-                  <span>ARTIST</span>
-                  <h1>Connection Between Self-Portraits and Identity</h1>
-                  <div>
-                    <span
-                      ><i class="fa-regular fa-calendar"></i> May 15, 2020</span
-                    ><br />
-                    <span><i class="fa-regular fa-eye"></i> 1,805 views</span>
+            <div>
+              <div class="position-relative">
+                <img src="../assets/img/artist-blog-02-500x680.jpg" alt="" />
+                <div class="position-absolute big-post-descr text-white p-5">
+                  <div class="mt-ow">
+                    <span>ARTIST</span>
+                    <h1>Connection Between Self-Portraits and Identity</h1>
+                    <div>
+                      <span
+                        ><i class="fa-regular fa-calendar"></i> May 15,
+                        2020</span
+                      ><br />
+                      <span><i class="fa-regular fa-eye"></i> 1,805 views</span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
             <!--Right one-->
-            <div class="course-card small-post-descr m-3">
+            <div class="course-blog small-post-descr right-article">
               <div class="mb-2">
                 <img
-                  class="course-img"
+                  style="width: 250px; height: 200px"
                   src="../assets/img/artist-blog-01-480x356.jpg"
                   alt="blog image"
                 />
@@ -284,14 +287,134 @@ export default {
             </div>
           </div>
         </div>
+        <div class="text-center">
+          <span
+            >Get into details now?
+            <a href=""
+              >View all posts <i class="fa-solid fa-arrow-right-long"></i></a
+          ></span>
+        </div>
+      </div>
+    </div>
+    <!--Upcoming Events-->
+    <div class="mt-5 mb-5">
+      <div class="text-center">
+        <h3>Upcoming Events</h3>
+        <h1>Let's work Together</h1>
+      </div>
+      <!--First row-->
+      <div class="container d-flex justify-content-center mt-5">
+        <div class="d-flex">
+          <!--Event one-->
+          <div class="events d-flex">
+            <div>
+              <img
+                src="../assets/img/artist-event-04-250x300.jpg"
+                alt="artist event"
+              />
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-5">
+              <div>
+                <div>
+                  <span>APR 22, 2021</span>
+                  <h5>Storytelling Workshop</h5>
+                </div>
+                <div>
+                  <span
+                    ><i class="fa-solid fa-location-dot"></i> Texas, US</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Event two-->
+          <div class="events d-flex ms-4">
+            <div>
+              <img
+                style="width: 250px; height: 300px"
+                src="../assets/img/artist-event-03-250x300.jpg"
+                alt="artist event"
+              />
+            </div>
+            <div class="d-flex justify-content-center align-items-center p-5">
+              <div>
+                <div>
+                  <span>OCT 10, 2020</span>
+                  <h5>Painting Art Contest 2020</h5>
+                </div>
+                <div>
+                  <span
+                    ><i class="fa-solid fa-location-dot"></i> New York, US</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div></div>
-        <div></div>
+      </div>
+      <!--Second row-->
+      <div class="container d-flex justify-content-center mt-5">
+        <!--Event three-->
+        <div class="d-flex me-4">
+          <div class="d-flex justify-content-center align-items-center p-5">
+            <div class="text-end">
+              <div>
+                <span>NOV 23, 2020</span>
+                <h5>International Art Fair 2020</h5>
+              </div>
+              <div>
+                <span
+                  ><i class="fa-solid fa-location-dot"></i> Hamburg,
+                  Germany</span
+                >
+              </div>
+            </div>
+          </div>
+          <div>
+            <img
+              style="width: 250px; height: 300px"
+              src="../assets/img/artist-event-02-250x300.jpg"
+              alt="artist event"
+            />
+          </div>
+        </div>
+        <!--Event four-->
+        <div class="d-flex">
+          <div class="d-flex justify-content-center align-items-center p-5">
+            <div class="text-end">
+              <div>
+                <span>DEC 15, 2020</span>
+                <h5>
+                  Street Performance: Call for<br />
+                  Artist
+                </h5>
+              </div>
+              <div>
+                <span
+                  ><i class="fa-solid fa-location-dot"></i> Illinois, US</span
+                >
+              </div>
+            </div>
+          </div>
+          <div>
+            <img
+              style="width: 250px; height: 300px"
+              src="../assets/img/artist-event-01-250x300.jpg"
+              alt="artist event"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
+.border-red {
+  border: 1px dashed red;
+}
+
 .side-text {
   font-size: 1.2rem;
   width: 50%;
@@ -334,5 +457,21 @@ export default {
 }
 .mt-ow {
   margin-top: 350px;
+}
+
+.course-blog {
+  width: 250px;
+}
+.left-article {
+  margin-top: 200px;
+  margin-right: 60px;
+}
+.right-article {
+  margin-top: 80px;
+  margin-left: 60px;
+}
+
+.events {
+  width: calc(100% / 2);
 }
 </style>
