@@ -60,7 +60,7 @@ export default {
 <template>
   <div class="container">
     <!--Artist Coaching-->
-    <div class="ps-5 pe-5">
+    <div class="ps-5 pe-5 mt-5 mb-5">
       <div class="text-center">
         <h1 class="custom-title-mills">Artist Coaching</h1>
         <h1>I understand what it takes to create.<br />I can help you with:</h1>
@@ -117,41 +117,47 @@ export default {
       </div>
     </div>
     <!--Coach and Mentor-->
-    <div
-      class="container d-flex justify-content-between align-items-center pe-5 ps-5"
-    >
-      <div class="text-center">
-        <div class="flex-grow-1">
-          <div><img src="../assets/img/artist-quote-icon.png" alt="" /></div>
-          <div class="ps-5 pe-5">
-            <div class="mt-3 mb-5">
-              <span class="display-5 fw-bold">
-                I coach and mentor<br />
-                visual artists, like <br />you, to create Like<br />
-                you mean it
-              </span>
+    <div class="mt-5 mb-5 l-gray">
+      <div
+        class="container d-flex justify-content-between align-items-center pe-5 ps-5"
+      >
+        <div class="text-center">
+          <div class="flex-grow-1">
+            <div><img src="../assets/img/artist-quote-icon.png" alt="" /></div>
+            <div class="ps-5 pe-5">
+              <div class="mt-3 mb-5">
+                <span class="display-5 fw-bold">
+                  I coach and mentor<br />
+                  visual artists, like <br />you, to create Like<br />
+                  you mean it
+                </span>
+              </div>
+              <h1 class="custom-title-mills">Martin Garrix</h1>
             </div>
-            <h1 class="custom-title-mills">Martin Garrix</h1>
           </div>
         </div>
-      </div>
-      <div class="side-text mb-5">
-        <div>
-          <div class="mt-5">
-            <p>
-              As a coach and mentor, my ultimate goal is to motivate visual
-              artists toward inspired action. I help you get back on track to
-              being the productive, creative, meaningful and authentic artist
-              you truly want to be. I support artists in crafting an dliving a
-              creative life as well as feeling good about themselves and their
-              art.
-            </p>
-            <p>
-              As an artist and an educator for nearly 30 years, I understand
-              what it takes to create.
-            </p>
+        <div class="side-text mb-5">
+          <div>
+            <div class="mt-5">
+              <p>
+                As a coach and mentor, my ultimate goal is to motivate visual
+                artists toward inspired action. I help you get back on track to
+                being the productive, creative, meaningful and authentic artist
+                you truly want to be. I support artists in crafting an dliving a
+                creative life as well as feeling good about themselves and their
+                art.
+              </p>
+              <p>
+                As an artist and an educator for nearly 30 years, I understand
+                what it takes to create.
+              </p>
+            </div>
+            <div class="mt-5">
+              <button class="orange-button fw-bold pt-3 pb-3 ps-5 pe-5">
+                Get started today
+              </button>
+            </div>
           </div>
-          <div class="mt-5"><button>Get started today</button></div>
         </div>
       </div>
     </div>
@@ -191,9 +197,9 @@ export default {
               alt="course image"
             />
           </div>
-          <div class="course-infos ms-3">
+          <div class="course-infos ms-3 bg-light p-2">
             <div class="mt-2 mb-2">
-              <span>{{ course.price }}</span>
+              <span class="link-orange fw-bold">{{ course.price }}</span>
               <h5>{{ course.course_name }}</h5>
             </div>
             <div>
@@ -290,8 +296,9 @@ export default {
         <div class="text-center">
           <span
             >Get into details now?
-            <a href=""
-              >View all posts <i class="fa-solid fa-arrow-right-long"></i></a
+            <a class="link-orange" href=""
+              >View all posts
+              <i class="fa-solid fa-arrow-right-long link-orange"></i></a
           ></span>
         </div>
       </div>
@@ -438,6 +445,7 @@ export default {
   }
   .course-infos {
     width: 85%;
+    border: 1px dashed $orange;
   }
 }
 

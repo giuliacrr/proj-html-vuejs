@@ -4,12 +4,28 @@
 @import "./partials/variables";
 
 * {
-  color: $font-overall;
+  color: $dark-grey;
 }
 
+body {
+  background-image: url(../assets/img/new-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-s {
+  margin-top: 130px;
+}
+
+.course-infos {
+  border: 2px solid $orange;
+}
+
+//Fonts
 .custom-title-mills {
   font-family: "Hursttom Randolph", sans-serif;
-  color: $font-c1;
+  color: $orange;
 }
 
 .custom-title-pf {
@@ -18,4 +34,56 @@
 
 .font-size-small {
   font-size: 1.2rem;
+}
+
+//Bg-colors
+.l-gray {
+  background-color: $light-grey;
+}
+
+//Button
+.orange-button {
+  border: 0;
+  background-color: $orange;
+  color: white;
+  border-radius: 7px;
+  padding: 5px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: $dark-grey;
+}
+
+.link-orange {
+  color: $orange;
+}
+
+.link-ow {
+  text-decoration: none;
+  color: $dark-grey;
+}
+
+//Hovers
+.orange-button:hover {
+  background-color: $light-blue;
+  opacity: 1;
+}
+
+a:hover {
+  color: $orange;
+}
+
+.nav-dd-hover:hover {
+  color: $orange;
+}
+
+//Text color
+
+.text-orange {
+  color: $orange;
+}
+
+.text-dgrey {
+  color: $dark-grey;
 }
