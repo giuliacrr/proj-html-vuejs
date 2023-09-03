@@ -53,7 +53,28 @@ export default {
             </ul>
           </div>
         </div>
-        <div>Socials</div>
+        <div>
+          <div class="d-flex align-items-center">
+            <div class="me-3">
+              <a href=""
+                ><i class="nav-dd-hover fa-brands fa-square-facebook"></i
+              ></a>
+            </div>
+            <div class="me-3">
+              <a href=""
+                ><i class="nav-dd-hover fa-brands fa-square-x-twitter"></i
+              ></a>
+            </div>
+            <div class="me-3">
+              <a href=""
+                ><i class="nav-dd-hover fa-brands fa-square-instagram"></i
+              ></a>
+            </div>
+            <div class="me-3">
+              <a href=""><i class="nav-dd-hover fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
