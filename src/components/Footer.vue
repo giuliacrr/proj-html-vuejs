@@ -3,14 +3,14 @@ export default {};
 </script>
 
 <template>
-  <div>
+  <div class="bg-light">
     <!--Newsletter-->
-    <div class="pt-4 pb-4">
+    <div class="pt-4 pb-4 d-blue">
       <div
         class="container d-flex text-white justify-content-center align-items-center"
       >
         <div class="text-end get-in-touch">
-          <span class="custom-title-pf">
+          <span class="custom-title-pf text-white">
             Newsletter to get<br />
             in touch
           </span>
@@ -22,7 +22,7 @@ export default {};
           >
             <input type="email" placeholder="Your e-mail" />
             <span class="send-btn"
-              ><i class="fa-solid fa-arrow-right-long"></i
+              ><i class="fa-solid fa-arrow-right-long text-white"></i
             ></span>
           </div>
         </div>
@@ -49,16 +49,22 @@ export default {};
         </div>
         <div class="d-flex align-items-center">
           <div class="me-3">
-            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+            <a href=""
+              ><i class="nav-dd-hover fa-brands fa-square-facebook"></i
+            ></a>
           </div>
           <div class="me-3">
-            <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href=""
+              ><i class="nav-dd-hover fa-brands fa-square-x-twitter"></i
+            ></a>
           </div>
           <div class="me-3">
-            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            <a href=""
+              ><i class="nav-dd-hover fa-brands fa-square-instagram"></i
+            ></a>
           </div>
           <div class="me-3">
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="nav-dd-hover fa-brands fa-linkedin"></i></a>
           </div>
         </div>
       </div>
@@ -66,22 +72,22 @@ export default {};
       <div>
         <h6>Explore</h6>
         <ul>
-          <li><a href="">Start here</a></li>
-          <li><a href="">Success story</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Courses</a></li>
-          <li><a href="">Contact us</a></li>
+          <li class="nav-dd-hover"><a href="">Start here</a></li>
+          <li class="nav-dd-hover"><a href="">Success story</a></li>
+          <li class="nav-dd-hover"><a href="">Blog</a></li>
+          <li class="nav-dd-hover"><a href="">Courses</a></li>
+          <li class="nav-dd-hover"><a href="">Contact us</a></li>
         </ul>
       </div>
       <!--Information-->
       <div class="me-5">
         <h6>Information</h6>
         <ul>
-          <li><a href="">Start here</a></li>
-          <li><a href="">Success story</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Courses</a></li>
-          <li><a href="">Contact us</a></li>
+          <li class="nav-dd-hover"><a href="">Start here</a></li>
+          <li class="nav-dd-hover"><a href="">Success story</a></li>
+          <li class="nav-dd-hover"><a href="">Blog</a></li>
+          <li class="nav-dd-hover"><a href="">Courses</a></li>
+          <li class="nav-dd-hover"><a href="">Contact us</a></li>
         </ul>
       </div>
       <!--Instagram-->
@@ -89,6 +95,7 @@ export default {};
         <h6>
           Instagram
           <a
+            class="text-orange"
             href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D"
             >@maxcoach</a
           >
@@ -170,6 +177,7 @@ ul {
   }
   a {
     text-decoration: none;
+    color: inherit;
   }
 }
 

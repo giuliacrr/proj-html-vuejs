@@ -37,6 +37,12 @@ body {
 }
 
 //Bg-colors
+.d-blue {
+  background-color: $dark-blue;
+  background-image: url(../assets/img/artist-shape-color-paint-top-left.png);
+  background-repeat: no-repeat;
+}
+
 .l-gray {
   background-color: $light-grey;
 }

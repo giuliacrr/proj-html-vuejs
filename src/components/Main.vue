@@ -60,7 +60,7 @@ export default {
 <template>
   <div class="container">
     <!--Artist Coaching-->
-    <div class="ps-5 pe-5 mt-5 mb-5">
+    <div class="ps-5 pe-5 mt-5 mb-5 rounded">
       <div class="text-center">
         <h1 class="custom-title-mills">Artist Coaching</h1>
         <h1>I understand what it takes to create.<br />I can help you with:</h1>
@@ -117,7 +117,7 @@ export default {
       </div>
     </div>
     <!--Coach and Mentor-->
-    <div class="mt-5 mb-5 l-gray">
+    <div class="mt-5 mb-5">
       <div
         class="container d-flex justify-content-between align-items-center pe-5 ps-5"
       >
@@ -138,7 +138,7 @@ export default {
         </div>
         <div class="side-text mb-5">
           <div>
-            <div class="mt-5">
+            <div class="mt-5 l-gray rounded p-5">
               <p>
                 As a coach and mentor, my ultimate goal is to motivate visual
                 artists toward inspired action. I help you get back on track to
@@ -183,7 +183,7 @@ export default {
     </div>
     <!--Slider-->
     <!--Artist Coaching 2-->
-    <div class="mb-5 mt-5">
+    <div class="mb-5 mt-5 rounded">
       <div class="text-center">
         <h1 class="custom-title-mills">Artist Coaching</h1>
         <h1>Latest Online Courses</h1>
@@ -212,8 +212,9 @@ export default {
         </div>
       </div>
       <div class="d-flex justify-content-center">
-        <button>
-          View all courses <i class="fa-solid fa-arrow-right-long"></i>
+        <button class="orange-button mb-5">
+          View all courses
+          <i class="fa-solid text-white fa-arrow-right-long"></i>
         </button>
       </div>
     </div>
@@ -235,7 +236,7 @@ export default {
                   alt="blog image"
                 />
               </div>
-              <div class="course-infos ms-3">
+              <div class="course-infos ms-3 rounded p-2">
                 <div class="mt-2 mb-2">
                   <span>ARTIST</span>
                   <h5>Brush Strokes Energize Trees in Paintings</h5>
@@ -255,14 +256,19 @@ export default {
                 <img src="../assets/img/artist-blog-02-500x680.jpg" alt="" />
                 <div class="position-absolute big-post-descr text-white p-5">
                   <div class="mt-ow">
-                    <span>ARTIST</span>
-                    <h1>Connection Between Self-Portraits and Identity</h1>
+                    <span class="text-white">ARTIST</span>
+                    <h1 class="text-white">
+                      Connection Between Self-Portraits and Identity
+                    </h1>
                     <div>
-                      <span
-                        ><i class="fa-regular fa-calendar"></i> May 15,
-                        2020</span
+                      <span class="text-white"
+                        ><i class="fa-regular fa-calendar text-white"></i> May
+                        15, 2020</span
                       ><br />
-                      <span><i class="fa-regular fa-eye"></i> 1,805 views</span>
+                      <span class="text-white"
+                        ><i class="fa-regular fa-eye text-white"></i> 1,805
+                        views</span
+                      >
                     </div>
                   </div>
                 </div>
@@ -278,7 +284,7 @@ export default {
                   alt="blog image"
                 />
               </div>
-              <div class="course-infos blog-img ms-3">
+              <div class="course-infos blog-img ms-3 p-2 rounded">
                 <div class="mt-2 mb-2">
                   <span>ARTIST</span>
                   <h5>Pocket-Sized Notebooks Hold Miniature Paintings</h5>
@@ -293,7 +299,7 @@ export default {
             </div>
           </div>
         </div>
-        <div class="text-center">
+        <div class="text-center fw-bold">
           <span
             >Get into details now?
             <a class="link-orange" href=""
@@ -313,7 +319,7 @@ export default {
       <div class="container d-flex justify-content-center mt-5">
         <div class="d-flex">
           <!--Event one-->
-          <div class="events d-flex">
+          <div class="events d-flex rounded">
             <div>
               <img
                 src="../assets/img/artist-event-04-250x300.jpg"
@@ -335,7 +341,7 @@ export default {
             </div>
           </div>
           <!--Event two-->
-          <div class="events d-flex ms-4">
+          <div class="events d-flex ms-4 rounded">
             <div>
               <img
                 style="width: 250px; height: 300px"
@@ -364,7 +370,9 @@ export default {
       <div class="container d-flex justify-content-center mt-5">
         <!--Event three-->
         <div class="d-flex">
-          <div class="d-flex justify-content-center align-items-center p-5">
+          <div
+            class="d-flex justify-content-center align-items-center p-5 rounded"
+          >
             <div class="text-end">
               <div>
                 <span>NOV 23, 2020</span>
@@ -387,7 +395,7 @@ export default {
           </div>
         </div>
         <!--Event four-->
-        <div class="d-flex">
+        <div class="d-flex rounded">
           <div class="d-flex justify-content-center align-items-center p-5">
             <div class="text-end">
               <div>
@@ -445,7 +453,6 @@ export default {
   }
   .course-infos {
     width: 85%;
-    border: 1px dashed $orange;
   }
 }
 
@@ -478,8 +485,11 @@ export default {
   margin-top: 80px;
   margin-left: 60px;
 }
-
 .events {
   width: calc(100% / 2);
+}
+
+.rounded {
+  background-color: rgba(255, 255, 255, 0.501);
 }
 </style>
